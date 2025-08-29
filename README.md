@@ -1,12 +1,37 @@
-# React + Vite
+# Histórias Mal Contadas DEMO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o projeto final da disciplina de Linguagem de Programação I da Universidade do Estado do Rio de Janeiro (UERJ).
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Histórias Mal Contadas DEMO é um jogo de terror inspirado em títulos como Stories Untold, Não tenho boca e preciso gritar (I Have No Mouth, and I Must Scream), Hellblade Senua Sacrifice, Fallout, entre outros. Explore um ambiente onde suas decisões afetam diretamente o desenrolar da trama.
 
-## Expanding the ESLint configuration
+> Este é um demo com funcionalidades limitadas em relação ao plano original. Futuramente, planejamos continuar o desenvolvimento do jogo completo em uma linguagem mais avançada e com assets de autoria própria.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Tela Inicial](/assets/images/tela_inicial.png)
+![Tela Unknow](/assets/images/tela_unknow.png)
+![Level Two](/assets/images/level_two.png)
+![Game Over](/assets/images/game_over.png)
+
+## Execução
+
+Para executar o jogo, siga as instruções abaixo:
+
+1. Baixe o código fonte zipado e extraia-o.
+2. Navegue até a pasta "src".
+3. Execute o arquivo "main.exe".
+
+> Se o Windows alertar sobre o arquivo ser de um autor desconhecido, ignore o aviso ou siga as instruções para permitir a execução do arquivo.
+
+Siga as instruções apresentadas no jogo para avançar na história e tomar decisões que afetarão o desenrolar da trama.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, corrigir bugs ou implementar novos recursos. Por favor, abra uma issue para discutir as mudanças que deseja realizar.
+
+## Desenvolvedores
+
+Este projeto foi desenvolvido em colaboração por:
+
+- Breno Alexandre Santana Silva
+- Breno Menezes Araujo
