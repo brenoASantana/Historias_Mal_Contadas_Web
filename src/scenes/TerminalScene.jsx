@@ -1,21 +1,18 @@
 import { useState, useEffect } from "react";
 
-const TYPEWRITER_SOUND = "/sounds/explosion.mp3";
+const TYPEWRITER_SOUND = "/sounds/keyboard-typing-fast.mp3";
 const ERROR_SOUND = "/sounds/jumpscare.ogg";
 
-// 1. Receber 'playSound' como prop
 export default function TerminalScene({ onNext, playSound }) {
-  const [scene, setScene] = useState(null); // A cena começará como nula
-  const [isLoading, setIsLoading] = useState(true); // Estado para controlar o carregamento
+  const [scene, setScene] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   const [history, setHistory] = useState([]);
   const [input, setInput] = useState("");
   const [currentLine, setCurrentLine] = useState("");
   const [charIndex, setCharIndex] = useState(0);
 
-  // Efeito para ir buscar os dados da cena do ficheiro JSON
   useEffect(() => {
-    // O fetch assume que o ficheiro está em /public/assets/texts/intro.json
     fetch("/assets/texts/intro.json")
       .then((response) => {
         if (!response.ok) {
@@ -24,28 +21,24 @@ export default function TerminalScene({ onNext, playSound }) {
         return response.json();
       })
       .then((data) => {
-        setScene(data); // Guarda os dados da cena no estado
-        setIsLoading(false); // Marca o carregamento como concluído
+        setScene(data);
+        setIsLoading(false);
       })
       .catch((error) => {
         console.error("Erro ao carregar os dados da cena:", error);
         setHistory(["Erro: Não foi possível carregar a cena."]);
         setIsLoading(false);
       });
-  }, []); // O array vazio [] garante que este efeito corre apenas uma vez
+  }, []);
 
-  // Efeito "máquina de escrever"
   useEffect(() => {
-    // Só executa se a cena já tiver sido carregada
     if (isLoading || !scene) return;
 
     if (charIndex < scene.description.length) {
       const timeout = setTimeout(() => {
         setCurrentLine((prev) => prev + scene.description[charIndex]);
-        setCharIndex(charIndex + 1);
-        if (charIndex % 2 === 0) {
-          playSound(TYPEWRITER_SOUND);
-        }
+        setCharIndex((prev) => prev + 1);
+        if (charIndex % 2 === 0) playSound(TYPEWRITER_SOUND);
       }, 40);
       return () => clearTimeout(timeout);
     } else if (!history.includes(scene.description)) {
@@ -54,7 +47,7 @@ export default function TerminalScene({ onNext, playSound }) {
   }, [charIndex, history, playSound, scene, isLoading]);
 
   const handleCommand = () => {
-    if (isLoading || !scene) return; // Não processa comandos se a cena não estiver carregada
+    if (isLoading || !scene) return;
 
     const command = input.trim().toLowerCase();
     const option = scene.options.find(
@@ -70,7 +63,6 @@ export default function TerminalScene({ onNext, playSound }) {
     setInput("");
   };
 
-  // Mostra uma mensagem de carregamento enquanto os dados não chegam
   if (isLoading) {
     return (
       <div className="bg-black text-green-400 font-mono p-4 h-screen w-full flex items-center justify-center">
@@ -85,7 +77,6 @@ export default function TerminalScene({ onNext, playSound }) {
         {history.map((line, i) => (
           <p key={i}>{line}</p>
         ))}
-        {/* Adiciona um cursor a piscar no final da linha */}
         <p>
           {currentLine}
           <span className="animate-ping">_</span>
