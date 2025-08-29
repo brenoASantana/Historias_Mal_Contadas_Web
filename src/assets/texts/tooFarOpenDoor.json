@@ -1,0 +1,8 @@
+{
+  "title": "Muito longe da porta",
+  "description": "Você está longe demais da porta para abri-la. Talvez devesse ir até a porta?",
+  "options": [
+    { "text": "Ir até a porta", "nextScene": "porta1" },
+    { "text": "Ignorar e explorar a sala", "nextScene": "sala1" }
+  ]
+}

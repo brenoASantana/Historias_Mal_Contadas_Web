@@ -1,0 +1,7 @@
+{
+  "title": "Comando não reconhecido",
+  "description": "Você digitou um comando não reconhecido.\n\nVocê deve digitar somente palavras-chave sem caracteres especiais para descrever sua ação e destino.\n\nExemplo:\n'IR ATE LOCAL', 'ABRIR OBJETO', 'PEGAR ITEM'\n\nDica: Explore os ambientes e interaja com os objetos que encontrar.\nLembre-se de combinar ações e destinos de forma lógica.\n\nPara voltar ao início, digite VOLTAR.\n\nO que você faz?",
+  "options": [
+    { "text": "Voltar ao início", "nextScene": "terminalInicio" }
+  ]
+}

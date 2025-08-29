@@ -1,0 +1,8 @@
+{
+  "title": "Distância insuficiente",
+  "description": "Você está longe demais da porta para destrancá-la. Talvez devesse ir até a porta?",
+  "options": [
+    { "text": "Ir até a porta", "nextScene": "porta1" },
+    { "text": "Explorar a sala", "nextScene": "sala0" }
+  ]
+}

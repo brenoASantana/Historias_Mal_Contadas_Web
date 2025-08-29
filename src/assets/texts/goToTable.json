@@ -1,0 +1,9 @@
+{
+  "title": "Mesa de Escritório",
+  "description": "À medida que você se aproxima da mesa de escritório, percebe mais detalhes que escapavam à distância.\nA madeira escura e polida revela pequenos arranhões e imperfeições, testemunhas do uso prolongado.\n\nO abajur velho, com sua base de metal enferrujada, parece lembrar tempos de luminosidade agora perdida.\nA cúpula empoeirada projeta sombras delicadas sobre a superfície da mesa.\n\nUma chave de bronze rouba sua atenção, repousando sobre os papéis amarelados, sua superfície desgastada pelo tempo e pelo toque frequente de mãos já ausentes. As inscrições quase apagadas contam uma história que agora só pode ser imaginada.\n\nCada detalhe parece contar uma história silenciosa e melancólica, como se a mesa guardasse não apenas objetos físicos, mas também memórias fugidias, esperando serem desvendadas por quem se dispuser a explorar seus segredos esquecidos.\n\nO cheiro de bronze da chave faz com que você se relembre constantemente de que ela está lá, e parece que irá ficar te lembrando disso até você pegar chave.\n\nO que você faz?",
+  "options": [
+    { "text": "Pegar a chave", "nextScene": "chave1" },
+    { "text": "Ignorar a chave e examinar os papéis", "nextScene": "papel1" },
+    { "text": "Voltar para o centro da sala", "nextScene": "sala0" }
+  ]
+}

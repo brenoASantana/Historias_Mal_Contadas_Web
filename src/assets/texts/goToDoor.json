@@ -1,0 +1,9 @@
+{
+  "title": "A Porta",
+  "description": "Você se depara com a porta.\n\nA madeira está rachada e a pintura, outrora nítida em branco, agora está amarelada e descascada, revelando as fibras escuras por baixo. A maçaneta de metal oxidado brilha fracamente sob a luz fluorescente, convidando e ao mesmo tempo repelindo, uma possível saída desse lugar opressivo e, talvez, uma entrada para algo muito pior. A incerteza paira no ar, quase tangível, enquanto você pondera sobre os riscos.\n\nMas só há um jeito de descobrir o que está do outro lado.\n\nO que você faz?",
+  "options": [
+    { "text": "Abrir a porta", "nextScene": "porta_aberta" },
+    { "text": "Escutar através da porta antes de abrir", "nextScene": "porta_escutar" },
+    { "text": "Desistir e voltar para o centro da sala", "nextScene": "sala0" }
+  ]
+}

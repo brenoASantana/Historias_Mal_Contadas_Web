@@ -1,0 +1,8 @@
+{
+  "title": "A porta destrancada",
+  "description": "A chave encaixa perfeitamente na fechadura, como se estivesse destinada a isso desde o início dos tempos. Com um giro suave, você sente o mecanismo interno ceder, liberando a trava com um estalo silencioso.\n\nO que você faz?",
+  "options": [
+    { "text": "Abrir a porta e entrar", "nextScene": "salaFinal" },
+    { "text": "Ficar observando a porta", "nextScene": "gameOver" }
+  ]
+}

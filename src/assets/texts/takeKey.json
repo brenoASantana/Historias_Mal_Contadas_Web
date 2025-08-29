@@ -1,0 +1,9 @@
+{
+  "title": "A chave de bronze",
+  "description": "A chave de bronze é pesada na palma da sua mão, seu formato gasto sugere muitos usos ao longo dos anos. Cada entalhe na sua superfície conta uma história, uma promessa de acesso a segredos escondidos.\n\nO metal frio é reconfortante ao toque, um elo tangível entre você e o desconhecido além da porta trancada.\n\nAgora você tem o poder de destrancar a porta que essa chave protege.\n\nO que você faz?",
+  "options": [
+    { "text": "Ir até a porta e tentar destrancá-la", "nextScene": "portaDestrancada" },
+    { "text": "Guardar a chave e explorar mais o ambiente", "nextScene": "salaExplorada" },
+    { "text": "Ficar parado, pensando no peso simbólico da chave", "nextScene": "gameOver" }
+  ]
+}

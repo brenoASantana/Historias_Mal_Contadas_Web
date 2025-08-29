@@ -1,0 +1,8 @@
+{
+  "title": "A porta trancada",
+  "description": "Seus dedos procuram o buraco da fechadura.\n\nPressiona com determinação, tentando destrancá-la, mas seus esforços são em vão. Só encontrando a chave certa para esta porta você se sentirá menos impotente.\n\nAo espiar pela fechadura, apenas sombras são reveladas no interior, obscurecendo o que o futuro reserva aos olhos curiosos.\n\nO que você faz?",
+  "options": [
+    { "text": "Procurar a chave", "nextScene": "chave1" },
+    { "text": "Explorar a sala novamente", "nextScene": "sala0" }
+  ]
+}

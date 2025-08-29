@@ -1,0 +1,9 @@
+{
+  "title": "Bem-vindo ao inferno",
+  "description": "Bem-vindo ao inferno.",
+  "options": [
+    { "text": "Avançar", "nextScene": "inicio_inferno" },
+    { "text": "Gritar por ajuda", "nextScene": "eco_inferno" },
+    { "text": "Ficar parado, em silêncio", "nextScene": "gameOver" }
+  ]
+}

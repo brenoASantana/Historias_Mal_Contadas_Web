@@ -1,0 +1,9 @@
+{
+  "title": "Histórias Mal Contadas",
+  "description": "Você acorda abruptamente em uma sala cinzenta e gélida. A falta de luz natural torna o ambiente opressivamente sombrio,\nexceto pela luz dura e pálida de uma lâmpada fluorescente que ilumina o recinto com um brilho áspero e frio.\nO som suave, porém constante, da eletricidade fluindo através da lâmpada preenche o silêncio, criando uma sensação de desconforto.\n\nO ar é pesado e tem um odor metálico, mesclado com algo indistinto. A sala é retangular, com paredes de concreto bruto mostrando sinais de umidade e descamação. Você não tem nenhuma memória de como veio parar aqui e a ansiedade começa a permear seus pensamentos ao perceber que também não sabe como irá sair.\n\nÀ sua esquerda, uma mesa de escritório solitária se apoia contra a parede. Feita de madeira escura e polida, ela contrasta com a aspereza do ambiente. Pequenos detalhes como arranhões e imperfeições testemunham seu uso prolongado.\n\nÀ sua frente, uma porta antiga de pinho, desgastada pelo tempo, parece ser a única saída.\n\nApesar do medo que te consome, você sente um impulso irresistível de ir até porta, determinado a descobrir mais sobre esse lugar macabro.\n\nO que você faz?",
+  "options": [
+    { "text": "Ir até a porta e tentar abri-la", "nextScene": "sala1" },
+    { "text": "Explorar a mesa de escritório", "nextScene": "mesa1" },
+    { "text": "Ficar parado e observar o ambiente", "nextScene": "gameOver" }
+  ]
+}
