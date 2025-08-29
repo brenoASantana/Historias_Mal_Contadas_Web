@@ -1,37 +1,71 @@
-# Histórias Mal Contadas DEMO
+# Histórias Mal Contadas Web
 
-Este é o projeto final da disciplina de Linguagem de Programação I da Universidade do Estado do Rio de Janeiro (UERJ).
+Este é um projeto para estudos da **biblioteca React.js** e treino com a linguagem de programação JavaScript.
 
 ## Descrição
 
-Histórias Mal Contadas DEMO é um jogo de terror inspirado em títulos como Stories Untold, Não tenho boca e preciso gritar (I Have No Mouth, and I Must Scream), Hellblade Senua Sacrifice, Fallout, entre outros. Explore um ambiente onde suas decisões afetam diretamente o desenrolar da trama.
+Histórias Mal Contadas DEMO é um **jogo de terror narrativo** inspirado em títulos como _Stories Untold_, _I Have No Mouth, and I Must Scream_, _Hellblade: Senua's Sacrifice_, _Fallout_, entre outros.
 
-> Este é um demo com funcionalidades limitadas em relação ao plano original. Futuramente, planejamos continuar o desenvolvimento do jogo completo em uma linguagem mais avançada e com assets de autoria própria.
+No jogo, você explora ambientes sombrios e toma decisões que afetam diretamente o desenrolar da história, tudo através de um **terminal interativo** com digitação de comandos.
 
 ![Tela Inicial](/assets/images/tela_inicial.png)
 ![Tela Unknow](/assets/images/tela_unknow.png)
 ![Level Two](/assets/images/level_two.png)
 ![Game Over](/assets/images/game_over.png)
 
+## Requisitos
+
+- Node.js
+- npm
+- (opcional) Make, se quiser usar os comandos `make install` e `make dev`
+
 ## Execução
 
-Para executar o jogo, siga as instruções abaixo:
+Para jogar o demo web:
 
-1. Baixe o código fonte zipado e extraia-o.
-2. Navegue até a pasta "src".
-3. Execute o arquivo "main.exe".
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/brenoASantana/Historias_Mal_Contadas_DEMO.git
+   ```
 
-> Se o Windows alertar sobre o arquivo ser de um autor desconhecido, ignore o aviso ou siga as instruções para permitir a execução do arquivo.
+````
 
-Siga as instruções apresentadas no jogo para avançar na história e tomar decisões que afetarão o desenrolar da trama.
+2. Navegue até a pasta do projeto:
+
+   ```bash
+   cd Historias_Mal_Contadas_DEMO
+   ```
+3. Instale as dependências:
+
+   ```bash
+   make install
+   ```
+
+   ou, se preferir, usando npm:
+
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   make dev
+   ```
+
+   ou:
+
+   ```bash
+   npm run dev
+   ```
+5. Abra o navegador em [http://localhost:5173](http://localhost:5173) (ou a porta exibida no terminal).
+
+Siga as instruções no terminal do jogo para explorar a história e tomar decisões que influenciam o desfecho.
 
 ## Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, corrigir bugs ou implementar novos recursos. Por favor, abra uma issue para discutir as mudanças que deseja realizar.
+Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, corrigir bugs ou implementar novos recursos. Abra uma **issue** para discutir as mudanças antes de enviar pull requests.
 
-## Desenvolvedores
+---
 
-Este projeto foi desenvolvido em colaboração por:
-
-- Breno Alexandre Santana Silva
-- Breno Menezes Araujo
+Feito com muito amor por **Breno Santana** \:P <3
+````
